@@ -4,9 +4,11 @@
 """
 
 
-def main():
-    pass
+def main(*args):
+    return sorted(args)
 
+
+print(main(1, 8, 3, 5, 7, 1.5))
 
 if __name__ == '__main__':
-    assert main() is None, "Все ок"
+    pass
