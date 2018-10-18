@@ -11,4 +11,4 @@ def main(*args):
 print(main(1, 8, 3, 5, 7, 1.5))
 
 if __name__ == '__main__':
-    pass
+    assert main(3, 1, 2) == [1, 2, 3], "Что-то неверно"
